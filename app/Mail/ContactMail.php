@@ -40,6 +40,6 @@ class ContactMail extends Mailable
    */
   public function build()
   {
-    return $this->from('mail@hotmail.com')->subject('ClasX Website Contact Message')->view('emails.contact-email')->with('name', $this->name)->with('surname', $this->surname)->with('email', $this->email)->with('phone', $this->phone)->with('address', $this->address)->with('contactMessage', $this->contactMessage);
+    return $this->from('mail@mail.com')->subject('Example Company Website Contact Message')->view('emails.contact-email')->with('name', $this->name)->with('surname', $this->surname)->with('email', $this->email)->with('phone', $this->phone)->with('address', $this->address)->with('contactMessage', $this->contactMessage);
   }
 }

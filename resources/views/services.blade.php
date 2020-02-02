@@ -75,7 +75,7 @@
 
         <p class="servicesText">{{__('localization.servicesCBSCMPText')}}</p>
 
-        <a id="servicesGridBtn" style="width: 179px;" class="ui large primary button" target="_blank" href="https://cmp.examplesoft.com">{{__('localization.servicesCBSCMPBtn')}}</a>
+        <a id="servicesGridBtn" style="width: 179px;" class="ui large primary button" target="_blank" href="#">{{__('localization.servicesCBSCMPBtn')}}</a>
       </div>
 
       <div class="ui column">

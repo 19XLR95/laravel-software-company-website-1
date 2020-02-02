@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'ClasX Software Website'),
+    'name' => env('APP_NAME', 'Example Company Website'),
 
     /*
     |--------------------------------------------------------------------------
